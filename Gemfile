@@ -25,7 +25,7 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data'
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
@@ -35,3 +35,5 @@ group :test do
   gem 'rspec-json_expectations'
   gem 'shoulda-matchers', '~> 4.0'
 end
+
+gem "wdm", "~> 0.1.1"
